@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>reviews</title>
+</head>
+<body>
+{% for i in reviews %}
+<li>{{reviews[i]["name"] }}</li>
+<li>{{reviews[i]["email"] }}</li>
+<li>{{reviews[i]["petsname"] }}</li>
+<li>{{reviews[i]["msg"] }}</li>
+{% endfor %}
+</body>
+</html>

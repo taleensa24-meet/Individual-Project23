@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log in</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="formBox">
+        <div class="formContainer">
+            <div class="topHeader">
+                <h1>Log in</h1>
+            </div>
+
+            <form action="/signin" method="POST">
+                <input type="text" name="email" class="inputText" placeholder="Email..." required>
+                <i class="fa-solid fa-user"></i><br>
+                <input type="password" name="password" class="inputText" placeholder="Password..." required>
+                <i class="fa-sharp fa-solid fa-key"></i><br>
+                <input type="submit" name="" id="submitButton" value="Log in">
+            </form><br>
+        </div>
+    </div>
+</body>
+</html>

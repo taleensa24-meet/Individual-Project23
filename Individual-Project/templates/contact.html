@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Review</title>
+</head>
+<body>
+<div class="contact-box">
+    <form method='POST' action='/contact'>
+        <input type="text" name="name" class="input-field" placeholder="your Name">
+        <input type="email" name="email" class="input-field" placeholder="your Email">
+        <input type="text" name="petsname" class="input-field" placeholder="Pet's name">
+        <textarea type="text" name="msg" class="input-field" placeholder="your message"></textarea>
+        <input type="submit" value="Submit">
+        <!-- <a href="/reviews"><input type="submit" class="btn">Send Message</input></a> -->
+    </form>
+<style>
+    {
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+        background-color: #efefef;
+        font-family: sans-serif;
+    }
+    .contact-box
+    {
+        width: 500px;
+        background-color: #fff;
+        box-shadow: 0 0 20px 0 #999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+    }
+    form
+    {
+        margin: 35px;
+    }
+    .input-field
+    {
+        width: 400px;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        border: 1px solid #777;
+        outline: none;
+    }
+    .textarea-field
+    {
+        height: 150px;
+        padding-top: 10px;
+
+    }
+    .btn
+    {
+        border-radius: 20px;
+        color: #fff;
+        margin-top: 18px;
+        padding: 10px;
+        background-color: #47c35a;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+
+</body>
+</html>
